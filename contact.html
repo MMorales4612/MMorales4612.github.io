@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Family Cooking with Mari</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+    <style>
+       
+        .contact-container {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
+        
+        .contact-text {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .contact-image {
+            max-width: 400px; /
+            border-radius: 10px;
+        }
+
+        .contact-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .contact-table th, .contact-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .contact-table th {
+            background-color: #007bff;
+            color: #ffffff;
+        }
+
+        .title-text {
+            font-family: 'Playwrite AT', sans-serif;
+            color: #333333;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <a href="index.html" class="title-link">
+            <h1 class="title-text">Family Cooking with Mari</h1>
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="recipes.html">Recipes</a>
+            <a href="contact.html">Contact</a>
+            <a href="aboutme.html">About Me</a>
+            <a href="subscribe.html">Subscribe</a>
+        </nav>
+    </div>
+
+    <div class="main-content">
+        <div class="about-me">
+            <div class="contact-container">
+                <div class="contact-text">
+                    <h2>Contact Us</h2>
+                    <p>If you have any questions or want to reach out, please fill out the form below and we will get back to you as soon as possible!</p>
+                    <form action="welcome.php" method="POST">
+                        <div>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div>
+                            <button type="submit">Submit</button>
+                        </div>
+                    </form>
+                    <table class="contact-table">
+                        <tr>
+                            <th>Contact Information</th>
+                            <th>Details</th>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td>CookingwithMari@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Phone Number</td>
+                            <td>555-555-5555</td>
+                        </tr>
+                        <tr>
+                            <td>Response Time</td>
+                            <td>24-72 hours</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="contact-image">
+                    <img src="contactus.jpg" alt="Contact Us Image" style="width: 100%;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Family Cooking with Mari. All rights reserved.</p>
+    </div>
+
+</body>
+</html>
