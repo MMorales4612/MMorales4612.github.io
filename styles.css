@@ -1,0 +1,147 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333333;
+}
+
+.header, .footer {
+    background-color: #007bff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1, .footer h1 {
+    font-family: 'Playwrite AT', sans-serif;
+    color: #000000;
+    margin: 0;
+}
+
+.header a, .footer a {
+    text-decoration: none;
+    color: #000000;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.header a:hover, .footer a:hover {
+    color: #e0f7fa;
+}
+
+.main-content {
+    padding: 20px;
+    background-color: #e0f7fa;
+}
+
+.section-title {
+    margin: 40px 0 20px;
+    font-size: 24px;
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    font-family: 'Playwrite AT', sans-serif;
+}
+
+.recipes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.recipe-box {
+    background-color: #ffffff;
+    padding: 20px;
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.recipe-box h3 {
+    color: #007bff;
+    margin: 0 0 10px 0;
+}
+
+.recipe-box p {
+    color: #333333;
+    margin: 0 0 20px 0;
+}
+
+.recipe-box button, .recipe-box a button {
+    background-color: #007bff;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.recipe-box button:hover, .recipe-box a button:hover {
+    background-color: #0056b3;
+}
+
+.recipe-box img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.recipe-title {
+    font-family: 'Playwrite AT', sans-serif;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.recipe-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.recipe-details, .recipe-images {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.recipe-details p {
+    margin: 5px 0;
+}
+
+.recipe-img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.recipe-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recipe-ingredients, .recipe-instructions {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.recipe-ingredients h3, .recipe-instructions h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.recipe-ingredients ul, .recipe-instructions ol {
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+
+.recipe-ingredients li, .recipe-instructions li {
+    margin-bottom: 10px;
+}
